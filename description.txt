@@ -1,0 +1,5 @@
+### Redux 
+- createStore에서 store은 data(state)를 넣는곳이다. 
+- state는 application에서 바뀌는 data를 말한다.
+- 리덕스는 data를 관리하는데 도와주는 역할을 하기 위해 만들어졌다. 
+- reducer는 data를 modify하는 함수이다.

@@ -1,4 +1,4 @@
-### Redux 
+### Vanilla Redux 
 - createStore에서 store은 data(state)를 넣는곳이다. 
 - state는 application에서 바뀌는 data를 말한다.
 - 리덕스는 data를 관리하는데 도와주는 역할을 하기 위해 만들어졌다. 
@@ -11,3 +11,7 @@
 - 유일하게 state를 바꿀수 있는 방법은 action을 보내는것이다. 그리고 다른것은 절대 state를 mutate 하지 말아야한다. 
 - mutating state하는 대신에 new state objects를 리턴 해야한다. 
 - 상태를 수정하는 것이 아니라 새로운 것을 return하는 것이다.
+
+### React Redux 
+- mapStateToProps는 function인데 두 종료의 argument와 함께 호출된다. 
+- mapStateToProps는 Redux State로부터 home component에 prop으로써 전달한다는것이다.

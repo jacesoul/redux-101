@@ -20,3 +20,7 @@
 - Reduct Toolkit은 많은 지름길들이 있는 Package라고 보면 된다.
 - 적은량의 코드로 같은 기능을 하도록 도와준다.
 - npm install @reduxjs/toolkit
+- createReducer를 사용하면 state를 mutate할수 있다.
+- createReducer에서는 2가지 옵션이 있는데 하나는 새로운 state를 리턴할수있고 아니면 state를 mutate할수 있다. 무언가 리턴을 할때는 꼭 새로운 state이여야만 한다.
+- push는 아무것도 리턴하지 않고 state를 mutate해준다. 
+- filter는 state를 mutate 하지 않고 새로운 array를 리턴한다.
